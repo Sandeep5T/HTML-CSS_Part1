@@ -1,0 +1,179 @@
+body {
+  margin: 10px;
+}
+
+p {
+  color: red;
+}
+
+.product {
+}
+
+a[target][target="_blank"][href*="google"][href^="https:"][href$=".com"] {
+  color: orange;
+}
+
+#products > p {
+  color: orange;
+}
+
+#products + p {
+  color: blue;
+}
+
+#products ~ p {
+  color: green;
+}
+
+article p:first-of-type {
+  font-size: 200%;
+  font-style: italic;
+}
+
+/* article p:first-child {
+  color: aqua;
+} */
+
+article p:last-child {
+  color: brown;
+  font-weight: bold;
+  /* font-size: 140px; */
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+ul li:nth-child(even) {
+  color: burlywood;
+}
+
+ul li:nth-child(3n) {
+  color: cadetblue;
+}
+
+ul li:nth-child(4n):hover {
+  color: blueviolet;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}
+
+.first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* p::first-line {
+  font-weight: bold;
+} */
+
+p::selection {
+  background-color: pink;
+}
+::selection {
+  background-color: pink;
+}
+
+p::after {
+  content: "...";
+  display: block;
+}
+
+.highlight {
+  color: pink;
+  font-size: 4em;
+}
+
+h1 {
+  color: dodgerblue;
+  font-size: 3em;
+}
+
+#products {
+  color: green;
+}
+
+#products {
+  color: brown;
+}
+
+.highlight#products {
+  color: red;
+}
+
+h1#products {
+  color: dodgerblue;
+}
+
+.featured #products {
+  color: dodgerblue;
+}
+
+p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+
+strong {
+  color: initial;
+  border: inherit;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsla(48deg 77% 55% / 50%);
+}
+
+.linearGradient {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(270deg, dodgerblue 10%, yellow 30%, tomato 60%);
+}
+
+.radialGradient {
+  width: 800px;
+  height: 200px;
+  background: rgb(26, 15, 213);
+  background: radial-gradient(
+    circle,
+    rgba(26, 15, 213, 1) 0%,
+    rgba(222, 0, 255, 0.5) 89%
+  );
+}
+
+.borders {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  border-top: 20px solid royalblue;
+  border: 10px dashed royalblue;
+  border-width: 10px;
+  border-style: dashed;
+  border-color: royalblue;
+  border-radius: 100%;
+}
+
+.shadows {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  box-shadow: 0 0 30px grey;
+}
+
+.shadowHeading {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
