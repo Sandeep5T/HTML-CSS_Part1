@@ -1,0 +1,55 @@
+body {
+  margin: 10px;
+}
+
+article :first-child {
+  font-size: 140%;
+  font-style: italic;
+}
+
+article p:first-of-type {
+  color: orange;
+}
+
+article > :first-of-type {
+  color: blue;
+}
+
+article p:last-child {
+  font-weight: bold;
+}
+
+article :last-child {
+  font-weight: bold;
+}
+
+p:first-of-type {
+  color: blue;
+}
+
+:first-child {
+  color: green;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+ul li:nth-child(even) {
+  color: cyan;
+}
+
+ul li:nth-child(4n) {
+  color: chocolate;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+  background-color: black;
+}

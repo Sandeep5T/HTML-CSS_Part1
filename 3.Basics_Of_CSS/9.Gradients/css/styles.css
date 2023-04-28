@@ -1,0 +1,48 @@
+body {
+  margin: 10px;
+}
+
+.boxes {
+  display: column;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, dodgerblue, yellow);
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(45deg, dodgerblue, yellow 90%);
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(white, yellow);
+}
+
+.box5 {
+  width: 600px;
+  height: 200px;
+  background-image: radial-gradient(circle at top left, white, yellow);
+}
+
+.box6 {
+  width: 1000px;
+  height: 500px;
+  background: rgb(26, 15, 213);
+  background: linear-gradient(
+    45deg,
+    rgba(26, 15, 213, 0.23030462184873945) 0%,
+    rgba(222, 0, 255, 0.5) 89%
+  );
+}

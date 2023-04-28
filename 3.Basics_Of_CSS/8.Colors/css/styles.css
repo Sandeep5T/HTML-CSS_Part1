@@ -1,0 +1,15 @@
+body {
+  margin: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsla(95 56% 32% / 0.5);
+  /* background-color: hsl(67 56% 32% / 0.5);
+  background-color: hsl(16deg 56% 32% / 0.5);
+  background-color: hsl(56deg, 56%, 32%, 0.5);
+  background-color: hsl(360, 56%, 32%, 0.5);
+  background-color: rgb(184, 57, 57, 0.5);
+  background-color: rgba(184, 57, 57, 0.5); */
+}

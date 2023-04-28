@@ -1,0 +1,13 @@
+#products {
+  background-color: orange;
+}
+
+.product {
+  background-color: pink;
+}
+
+/* The chaining works with AND condition below */
+a[href][href='https://google.com'][href*="google"][href^="https:"][href$=".com"]
+{
+  color: blue;
+}
